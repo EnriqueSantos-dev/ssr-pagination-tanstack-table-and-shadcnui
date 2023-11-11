@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "description": "Innovation Wizards",
+    "createdAt": "2023-11-10T08:00:00.000Z",
+    "updatedAt": "2023-11-10T12:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "description": "CodeCraft Mavericks",
+    "createdAt": "2023-11-09T10:15:00.000Z",
+    "updatedAt": "2023-11-09T15:45:00.000Z"
+  },
+  {
+    "id": 3,
+    "description": "Pixel Pioneers United",
+    "createdAt": "2023-11-08T14:45:00.000Z",
+    "updatedAt": "2023-11-08T18:20:00.000Z"
+  },
+  {
+    "id": 4,
+    "description": "Data Dynamo Explorers",
+    "createdAt": "2023-11-07T09:30:00.000Z",
+    "updatedAt": "2023-11-07T14:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "description": "TechTrail Blazers",
+    "createdAt": "2023-11-06T11:20:00.000Z",
+    "updatedAt": "2023-11-06T16:10:00.000Z"
+  },
+  {
+    "id": 6,
+    "description": "Digital Dreamweavers",
+    "createdAt": "2023-11-05T13:40:00.000Z",
+    "updatedAt": "2023-11-05T17:55:00.000Z"
+  },
+  {
+    "id": 7,
+    "description": "Byte Benders",
+    "createdAt": "2023-11-04T09:10:00.000Z",
+    "updatedAt": "2023-11-04T14:30:00.000Z"
+  },
+  {
+    "id": 8,
+    "description": "Code Cartographers",
+    "createdAt": "2023-11-03T12:25:00.000Z",
+    "updatedAt": "2023-11-03T16:45:00.000Z"
+  },
+  {
+    "id": 9,
+    "description": "Infinite Loop Explorers",
+    "createdAt": "2023-11-02T15:15:00.000Z",
+    "updatedAt": "2023-11-02T19:25:00.000Z"
+  },
+  {
+    "id": 10,
+    "description": "Binary Nomads",
+    "createdAt": "2023-11-01T10:50:00.000Z",
+    "updatedAt": "2023-11-01T15:15:00.000Z"
+  },
+  {
+    "id": 11,
+    "description": "Circuit Sorcerers",
+    "createdAt": "2023-10-31T11:55:00.000Z",
+    "updatedAt": "2023-10-31T16:20:00.000Z"
+  },
+  {
+    "id": 12,
+    "description": "Byte Bandits",
+    "createdAt": "2023-10-30T14:30:00.000Z",
+    "updatedAt": "2023-10-30T18:40:00.000Z"
+  },
+  {
+    "id": 13,
+    "description": "Algorithm Avengers",
+    "createdAt": "2023-10-29T09:40:00.000Z",
+    "updatedAt": "2023-10-29T14:00:00.000Z"
+  },
+  {
+    "id": 14,
+    "description": "Pixel Prowess",
+    "createdAt": "2023-10-28T12:20:00.000Z",
+    "updatedAt": "2023-10-28T16:35:00.000Z"
+  },
+  {
+    "id": 15,
+    "description": "Digital Dynamos",
+    "createdAt": "2023-10-27T16:10:00.000Z",
+    "updatedAt": "2023-10-27T20:25:00.000Z"
+  },
+  {
+    "id": 16,
+    "description": "Innovative Insiders",
+    "createdAt": "2023-10-26T10:15:00.000Z",
+    "updatedAt": "2023-10-26T14:30:00.000Z"
+  },
+  {
+    "id": 17,
+    "description": "Code Connoisseurs",
+    "createdAt": "2023-10-25T13:45:00.000Z",
+    "updatedAt": "2023-10-25T18:00:00.000Z"
+  },
+  {
+    "id": 18,
+    "description": "Binary Explorers",
+    "createdAt": "2023-10-24T11:30:00.000Z",
+    "updatedAt": "2023-10-24T15:45:00.000Z"
+  },
+  {
+    "id": 19,
+    "description": "Tech Titans",
+    "createdAt": "2023-10-23T14:20:00.000Z",
+    "updatedAt": "2023-10-23T18:35:00.000Z"
+  },
+  {
+    "id": 20,
+    "description": "Digital Nomads",
+    "createdAt": "2023-10-22T09:50:00.000Z",
+    "updatedAt": "2023-10-22T14:05:00.000Z"
+  }
+]
