@@ -25,20 +25,20 @@ type DataTablePaginationProps = {
 
 const PAGE_SIZE_OPTIONS = [10, 20, 30, 40, 50];
 
-export default function DataTablePagination({
+export function DataTablePagination({
   totalPages,
   currentPageSize,
   currentPage,
 }: DataTablePaginationProps) {
   const router = useRouter();
-  const generateUrl = useGenerateUrl();
+  const generateUrl = useGenerateUrl<{ page: string; limit: string }>();
   const canPreviousPage = currentPage > 1;
   const canGetNextPage = currentPage < totalPages;
 
   const handleNextPage = (value?: number) => {
     if (canGetNextPage) {
       router.push(
-        generateUrl({ params: [{ page: `${value ?? currentPage + 1}` }] })
+        generateUrl({ params: { page: `${value ?? currentPage + 1}` } })
       );
     }
   };
@@ -46,13 +46,13 @@ export default function DataTablePagination({
   const handlePreviousPage = (value?: number) => {
     if (canPreviousPage) {
       router.push(
-        generateUrl({ params: [{ page: `${value ?? currentPage - 1}` }] })
+        generateUrl({ params: { page: `${value ?? currentPage - 1}` } })
       );
     }
   };
 
-  const onChangeLimit = (value: string) => {
-    router.push(generateUrl({ params: [{ limit: value }] }));
+  const onChangeLimit = (limit: string) => {
+    router.push(generateUrl({ params: { limit } }));
   };
 
   return (

@@ -2,7 +2,7 @@ import { Input } from "@/components/ui/input";
 import { useDebounce } from "@/lib/use-debounce";
 import { useGenerateUrl } from "@/lib/use-generate-url";
 import { Table } from "@tanstack/react-table";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { DataTableViewOptions } from "./data-table-view-options";
 
@@ -15,10 +15,10 @@ export default function DataTableToolbar<TData>({
 }: DataTableToolbarProps<TData>) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const generateUrl = useGenerateUrl();
+  const generateUrl = useGenerateUrl<{ search: string; page: string }>();
 
   const [value, setValue] = useState<string | null>(
-    searchParams.get("filter") ?? null
+    searchParams.get("search") ?? null
   );
   const debounceValue = useDebounce(value, 500);
 
@@ -32,8 +32,9 @@ export default function DataTableToolbar<TData>({
 
   useEffect(() => {
     const url = generateUrl({
-      params: [{ filter: debounceValue, page: null }],
+      params: { search: debounceValue },
     });
+
     router.push(url);
   }, [debounceValue, generateUrl, router]);
 
