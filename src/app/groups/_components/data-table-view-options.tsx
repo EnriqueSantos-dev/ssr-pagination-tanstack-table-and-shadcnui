@@ -30,7 +30,7 @@ export function DataTableViewOptions<TData>({
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-fit">
         <DropdownMenuLabel className="whitespace-nowrap">
-          Visualizar colunas
+          Visibilidade
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         {table

@@ -63,7 +63,7 @@ export function DataTablePagination({
           defaultValue={`${currentPageSize}`}
           onValueChange={onChangeLimit}
         >
-          <SelectTrigger>
+          <SelectTrigger className="w-16">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
@@ -78,7 +78,7 @@ export function DataTablePagination({
 
       {totalPages > 0 && (
         <div>
-          <span>
+          <span className="tabular-nums">
             Pág {currentPage} de {totalPages}
           </span>
         </div>

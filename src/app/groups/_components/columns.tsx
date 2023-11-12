@@ -5,7 +5,10 @@ import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
+  DropdownMenuGroup,
   DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Group } from "@/models/group.model";
@@ -57,12 +60,13 @@ export const columns: ColumnDef<Group>[] = [
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-              <DropdownMenuItem>
-                <span>Editar</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <span>Excluir</span>
-              </DropdownMenuItem>
+              <DropdownMenuGroup>
+                <DropdownMenuLabel>Ações</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem>Editar</DropdownMenuItem>
+                <DropdownMenuItem>Excluir</DropdownMenuItem>
+                <DropdownMenuItem>Admin. Sub Grupo</DropdownMenuItem>
+              </DropdownMenuGroup>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

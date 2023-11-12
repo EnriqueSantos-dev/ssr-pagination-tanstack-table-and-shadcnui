@@ -15,7 +15,7 @@ export default async function GroupsPage({
   const totalPages = Math.ceil(groups.total / limit);
 
   return (
-    <main className="p-6">
+    <main className="p-6 container mx-auto">
       <DataTable
         data={groups.data}
         columns={columns}
